@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^livecristle.com
+RewriteRule (.*) https://www.livecristle.com/$1 [R=301,L]

@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /team/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.livecristle.com/sitemap.xml
